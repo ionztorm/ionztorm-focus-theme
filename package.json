@@ -1,0 +1,25 @@
+{
+	"name": "ionztorm-chill",
+	"displayName": "ionztorm chill",
+	"description": "A VSCode theme by ionztorm",
+	"version": "0.1.0",
+	"publisher": "ionztorm",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": ["Themes"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ionztorm/ionztorm-chill"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "ionztorm chill",
+				"uiTheme": "vs-dark",
+				"path": "theme/ionztorm-chill.json"
+			}
+		]
+	}
+}
